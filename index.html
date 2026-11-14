@@ -1,14 +1,61 @@
 <!doctype html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#101827" />
-    <meta name="description" content="클라우드 인프라 구축, Kubernetes 운영, Terraform CI/CD 자동화 프로젝트 포트폴리오" />
-    <title>Cloud Infrastructure Engineer | Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101b32">
+    <meta name="description" content="DM Ticket과 AWS 클라우드 인프라 구축 프로젝트 포트폴리오">
+    <title>DM Portfolio | Infrastructure Projects</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="data/projects.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <a class="skip-link" href="#projects">프로젝트로 이동</a>
+
+    <main class="site" id="projects">
+
+        <div class="site-top">
+            <div class="site-top__brand">
+                <span class="brand-mark">DM</span>
+                <strong>PROJECT PORTFOLIO</strong>
+            </div>
+            <span class="site-top__note">
+                CLOUD · INFRASTRUCTURE · AUTOMATION
+            </span>
+        </div>
+
+        <div class="projects-heading">
+            <div>
+                <p class="eyebrow">SELECTED WORKS / 2026</p>
+                <h1>Infrastructure <span>Projects.</span></h1>
+            </div>
+            <p>
+                서비스 구축부터 배포 자동화, 데이터 정합성, 운영 관측성까지
+                <br>
+                직접 설계하고 구현한 인프라 프로젝트
+            </p>
+        </div>
+
+        <div class="project-list" id="project-list"></div>
+
+        <footer class="footer">
+            <strong>DM PORTFOLIO</strong>
+            <span>Designed for infrastructure engineering.</span>
+        </footer>
+    </main>
+
+    <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="이미지 확대">
+        <button class="lightbox__close" id="lightbox-close" aria-label="이미지 닫기" type="button">✕</button>
+
+        <img id="lightbox-image" alt="">
+        <p id="lightbox-caption"></p>
+    </div>
+
+</body>
+
 </html>
