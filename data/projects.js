@@ -13,8 +13,8 @@ window.DM_PROJECTS = [
         label: 'FEATURED / END-TO-END INFRASTRUCTURE',
 
         title: 'DM Ticket',
-        subtitle: '대규모 동시 접속을 고려한 티켓 예매 인프라',
-        lead: '대기열부터 좌석 선점, 결제, 운영 모니터링까지',
+        subtitle: '동시 접속을 고려한 티켓 예매 인프라',
+        lead: '대기열, 좌석 선점, 운영 모니터링까지',
 
         description:
             'Redis 입장 제어 · MySQL 좌석 동시성 · Kubernetes 서비스 배포 · GitLab CI/CD · Prometheus/Grafana 운영 모니터링',
